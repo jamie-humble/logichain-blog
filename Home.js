@@ -61,8 +61,8 @@ var diction = [
   new Entry("ProgressEntries/entry%231/ProgressPost.html","Entry #1", "Assets/Blockchain-1200-PNG.png", "Aug 23, 2021"),
   new Entry("ProgressEntries/entry%232/ProgressPost.html","Entry #2", "Assets/blockchainbanner.png", "Aug 30, 2021"),
   new Entry("ProgressEntries/entry%233/ProgressPost.html","Entry #3", "Assets/blockchainteh.jpg", "Sep 6, 2021"),
-  new Entry("ProgressEntries/entry%233/ProgressPost.html","Entry #4", "Assets/blockchainteh.jpg", "Sep 13, 2021"),
-  new Entry("ProgressEntries/entry%233/ProgressPost.html","Entry #5", "Assets/blockchainfarm.jpg", "Oct 5, 2021")
+  new Entry("ProgressEntries/entry%234/ProgressPost.html","Entry #4", "Assets/blockchainteh.jpg", "Sep 13, 2021"),
+  new Entry("ProgressEntries/entry%235/ProgressPost.html","Entry #5", "Assets/blockchainfarm.jpg", "Oct 5, 2021")
 
 ];
 
