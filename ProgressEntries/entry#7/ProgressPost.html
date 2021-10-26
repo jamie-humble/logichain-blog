@@ -22,15 +22,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#Overview">Overview</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Challenges">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Solution">Positives</a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#ProTim">Timeline of Progress</a> 
-          </li>
         </ul>
       </div>
     </nav>
@@ -43,7 +34,7 @@
       <div class="cd-scrolling-bg cd-color-2">
         <div class="cd-container">
           <p class="lead">
-            Welcome to the eighth progress entry of LogiChain!
+            Welcome to the ninth progress entry of LogiChain!
           </p>
           <h1 class="display-6">
             Important Updates
@@ -51,7 +42,7 @@
           <p>
             Since the last progress entry, here are the most pressing updates:
             </br>
-            Development on the order system is nearly underway.
+            No progress on LogiChain has been made this week.
           </p>
           <p></br>Heres the latest gaant chart updates.</p>
             <img src="gaant.PNG" class="progress" id="chart" alt="...">
@@ -67,74 +58,10 @@
         <div class="cd-container">
           <h1 class="h2">Databases</h1>
           <p>
-            This week has so far been relatively unproductive since, even though I spent a good amount of time on LogiChain, a majority of that time was spent backtracking database code and versions, in the end, I have decided on Firebase, the JSON powered database by google.
-          </p>
-          <p>
-            This week also led to the realisation that LogiChain no longer has any use for XRP escrows, and will from this point forth, be using transactions.
-            <br>
-            As far as new progress goes, we can now store products on the database and product orders are on the way.
+            No progress on LogiChain has been made this week due to the work I have been doing on other subjects.
           </p>
         </div> <!-- cd-container -->
-      </div> <!-- cd-scrolling-bg -->
-
-      <div class="cd-fixed-bg cd-bg-2">
-        <h2>Challenges</h2>
-      </div> <!-- cd-fixed-bg -->
-      <a name="Challenges"></a>
-      <div class="cd-scrolling-bg cd-color-3">
-        <div class="cd-container">
-          <p>
-            In regard to the challenges associated with this week, I was faced with lost time due to other assessments being due and I was relatively unstable since so much time was spent trying to find the correct data base to use
-          </p>
-        </div> <!-- cd-container -->
-      </div> <!-- cd-scrolling-bg -->
-
-      <div class="cd-fixed-bg cd-bg-2">
-        <h2>Positives</h2>
-      </div> <!-- cd-fixed-bg -->
-      <a name="Solution"></a>
-      <div class="cd-scrolling-bg cd-color-3">
-        <div class="cd-container">
-          <p>
-            Realistically, while a bunch of time was lost this week, we have left the week with a new database system which will prove to help logichain work faster and more securely.
-            Time will also be saved in future due to the fact that escrows are no longer being pursued.
-          </p>
-        </div> <!-- cd-container -->
-      </div> <!-- cd-scrolling-bg -->
-  
-      <div class="cd-fixed-bg cd-bg-3">
-        <h2>Timeline of Progress</h2>
-      </div> <!-- cd-fixed-bg -->
-      <a name="ProTim"></a>
-      <div class="cd-scrolling-bg cd-color-1">
-        <div class="cd-container">
-          <h1 class="display-5">13/10/21</h1>
-          <p>
-            Yesterday I found a GitHub repo containing all of the appropriate for creating escrows on the XRP network through python, after testing out the code for a few hours, I was happy with the outcome of the code, however, the escrow was still not valid on the network. This was due to the condition passed through the escrow, this is something that would be fixed with ease after implementing this code to LogiChain. After I made this discovery, I realised the error in my thought, that even if I manage to implement escrows, their implementation would be completely redundant.
-          </p>
-          <p>
-            Realistically, using an escrow for payment in an order system would mean that you would probably release the funds (or pay the sender) after the products arrive to the recipient or after a set amount of time. It is now clear to me that this is a completely unnecessary process since orders should be paid upfront, and if the order does not arrive i.e.(if it is lost or damaged in transit), then it should be at the expense of the payer or delivery driver since the sender has already sent the items.
-          </p>
-          <p>
-            For this reason, I will be using simple XRP transactions for order payments.
-            If an order is incorrectly made up and sent i.e.(there are missing items) then a second transaction will be sent to the recipient to make up for this mistake.
-            With this decided, I will now be working on a database to store item, user, event and order data instead of using JSON files.
-            After that then I will continue work on the order system as I will need the database as a propper data storage platform.            
-          </p>
-          </br></br>
-          <h1 class="display-5">15/10/21</h1>
-          <p>
-            Over the last few days I have been making progress towards using SQLite as my database for LogiChain, today I started integrating the SQLite python code. After speaking with my brother about the current database work, he has informed me about firebase, which is a JSON powered database platform made by google. I will be using this to facilitate the data storage for LogiChain.
-          </p>
-          </br></br>
-          <h1 class="display-5">18/10/21</h1>
-          <p>
-            I have now finished a large amount of the implementation of firebase, the use of this application is seamless and has already taken roughly 50 lines of code off my project.
-          </p>
-          
-        </div> <!-- cd-container -->
-      </div> <!-- cd-scrolling-bg -->
-  
+      </div> <!-- cd-scrolling-bg -->  
       <div class="cd-fixed-bg cd-bg-4">
         <h2 style="color: whitesmoke;">Thanks for reading!</h2>
       </div> <!-- cd-fixed-bg -->
