@@ -61,11 +61,12 @@ var diction = [
   new Entry("ProgressEntries/entry%231/ProgressPost.html","Entry #1", "Assets/Blockchain-1200-PNG.png", "Aug 23, 2021"),
   new Entry("ProgressEntries/entry%232/ProgressPost.html","Entry #2", "Assets/blockchainbanner.png", "Aug 30, 2021"),
   new Entry("ProgressEntries/entry%233/ProgressPost.html","Entry #3", "Assets/blockchainteh.jpg", "Sep 6, 2021"),
-  new Entry("ProgressEntries/entry%234/ProgressPost.html","Entry #4", "Assets/blockchainteh.jpg", "Sep 13, 2021"),
+  new Entry("ProgressEntries/entry%234/ProgressPost.html","Entry #4", "Assets/Retina-Display.jpg", "Sep 13, 2021"),
   new Entry("ProgressEntries/entry%235/ProgressPost.html","Entry #5", "Assets/blockchainfarm.jpg", "Oct 5, 2021"),
   new Entry("ProgressEntries/entry%236/ProgressPost.html","Entry #6", "Assets/manyblock.jpg", "Oct 11, 2021"),
-  new Entry("ProgressEntries/entry%237/ProgressPost.html","Entry #7", "Assets/blockchainfarm.jpg", "Oct 18, 2021"),
-  new Entry("ProgressEntries/entry%238/ProgressPost.html","Entry #8", "Assets/blockchainfarm.jpg", "Oct 26, 2021")
+  new Entry("ProgressEntries/entry%237/ProgressPost.html","Entry #7", "Assets/blockchainbanner.png", "Oct 18, 2021"),
+  new Entry("ProgressEntries/entry%238/ProgressPost.html","Entry #8", "Assets/blockchainfarm.jpg", "Oct 26, 2021"),
+  new Entry("ProgressEntries/final_address/ProgressPost.html","Final Address", "Assets/Blockchain-1200-PNG.png", "Nov 1, 2021")
 
 
 ];

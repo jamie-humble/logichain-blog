@@ -140,8 +140,8 @@ body.blog .card--blog:not(.card--blog--main){min-height:130px;padding:40px 10px 
 
 
 .col-lg-4 {
-    flex: 0 0 auto;
-    width: 25%;
+  flex: 0 0 auto;
+  width: 25%;
 }
 
 .card-img-top {
@@ -186,7 +186,7 @@ body.blog .card--blog:not(.card--blog--main){min-height:130px;padding:40px 10px 
 
 #aboutMe, #projects {
   background: #FFF3E0;
-  max-height: 2000px;
+  max-height: 3000px;
 }
 
 .content{
